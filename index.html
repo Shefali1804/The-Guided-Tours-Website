@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>The Guided Tours</title>
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-light">
+                    <i class="bi bi-airplane"></i>
+                    Breathtaking locations - The Guided Tours
+                </span>
+            </a>
+
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navabar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Get in Touch</a>
+                    </li>
+
+                    <li class="nav-item ms-2 d-md-inline">
+                        <a class="btn btn-secondary" href="#pricing">Best Rates</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- main image & intro text -->
+    <section id="intro">
+        <div class="container-lg">
+            <div id="home" class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="diplay-2">Welcome</div>
+                        <div class="display-5 text-success">discover hidden gems</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">
+                        Your Ultimate Travel Adventure Awaits! Welcome to The Guided Tours
+                    </p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Explore Now</a>
+
+                    <!-- open sidebar/offcanvas -->
+                    <a href="#sidebar" class="d-block mt-3 text-dark" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="sidebar">
+                        Journey into the Unknown
+                        <i class="bi bi-airplane-engines-fill text-muted"></i>
+                    </a>
+                </div>
+
+
+                <div class="col-md-5 text-center d-md-block">
+
+                    <!-- tooltip -->
+                    <span class="tool" data-bs-placement="bottom" title="Captivating Destinations: Explore the Unseen">
+                        <img class="img-fluid" src="assets/Travel.jpg" alt="travel places">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- destinations -->
+    <section id="destinations" class="bg-success mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Discover Our Destinations</h2>
+                <p class="lead text-light fw-bold">Explore the breathtaking locations that await your exploration.</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-0">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <img src="assets/Destination.jpg" class="card-img-top" alt="destination">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">
+                                Book Your Adventure
+                            </h4>
+                            <p class="lead card-subtitle">
+                                Take the first step towards an extraordinary travel experience with us.
+                            </p>
+                            <p class="display-5 my-4 text-success fw-bold">
+                                Eiffel Tower
+                            </p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Our Eiffel Tower tour offers you the chance to immerse yourself in the enchanting
+                                atmosphere of Paris.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-dark btn-lg mt-3">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-lg-4">
+                    <img src="assets/Guide.jpg" class="card-img-top" alt="guide">
+                    <div class="card border-warning border-2">
+                        <div class="card-header text-center text-primary">Our Services</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">
+                                Guided Tours with Local Experts
+                            </h4>
+                            <p class="lead card-subtitle">
+                                Tailored offerings designed to cater to all your travel needs.
+                            </p>
+                            <p class="display-4 my-4 text-success fw-bold">
+                                Exclusive Stay
+                            </p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Experience comfort and luxury that align with your vision of the perfect getaway. We
+                                handpick accommodations that range from boutique hotels to charming villas.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-dark btn-lg mt-3">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <img src="assets/Adventure.jpg" class="card-img-top" alt="adventure">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">
+                                Hidden Gems
+                            </h4>
+                            <p class="lead card-subtitle">
+                                Unveil the secrets of picturesque landscapes, charming villages and off-the-beaten-path
+                                wonders.
+                            </p>
+                            <p class="display-5 my-4 text-success fw-bold">
+                                Adventures
+                            </p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Our expertly curated itineraries promise to take you beyond the ordinary with each
+                                destination.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-dark btn-lg mt-3">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- pricing and best rates -->
+
+    <section id="pricing">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Transparent Pricing</h2>
+                <p class="lead text-primary fw-bold">We believe in upfront pricing, ensuring that there are no hidden fees or
+                    surprises along the way.</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="assets/Pricing Plans.png" class="img-fluid" alt="pricing plans">
+                </div>
+
+                <!-- <div class="col-lg-6"> -->
+
+                <!-- accordion -->
+                <div class="accordion" id="price">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="pricing-item-1">
+                            <button class="accordion-button text-success fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#pricing-collapse-1" aria-expanded="true"
+                                aria-controls="pricing-collapse-1">
+                                City Exploration Tour - Pricing starts at $65 for adults and $50 for children.
+                            </button>
+                        </h2>
+                        <div id="pricing-collapse-1" class="accordion-collapse collapse-show"
+                            aria-labelledby="pricing-item-1" data-bs-parent="#price">
+                            <div class="accordion-body">
+                                <p>Discover the heart of beautiful cities with our engaging guided city tour. Immerse
+                                    yourself in its culture, history, and iconic landmarks.
+                                <p>
+                                <p>Our carefully curated guided tours offer you the chance to explore the world's
+                                    wonders without compromising on quality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="pricing-item-2">
+                            <button class="accordion-button collapsed text-success fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#pricing-collapse-2" aria-expanded="false"
+                                aria-controls="pricing-collapse-2">
+                                Nature Adventure Tour - Prices begin at $70 for adults and $55 for children.
+                            </button>
+                        </h2>
+                        <div id="pricing-collapse-2" class="accordion-collapse collapse"
+                            aria-labelledby="pricing-item-2" data-bs-parent="#price">
+                            <div class="accordion-body">
+                                <p>Discover the heart of beautiful cities with our engaging guided city tour. Immerse
+                                    yourself in its culture, history, and iconic landmarks.
+                                <p>
+                                <p>Embark on an exhilarating journey through Nature Destination. Our expert guides will
+                                    lead you through stunning landscapes, sharing their knowledge of local flora and
+                                    fauna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="pricing-item-3">
+                            <button class="accordion-button collapsed text-success fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#pricing-collapse-3" aria-expanded="false"
+                                aria-controls="pricing-collapse-3">
+                                Cultural Heritage Tour - Join us from just $55 for adults and $40 for children.
+                            </button>
+                        </h2>
+                        <div id="pricing-collapse-3" class="accordion-collapse collapse"
+                            aria-labelledby="pricing-item-3" data-bs-parent="#price">
+                            <div class="accordion-body">
+                                <p>Unearth the secrets of Cultural Destination with our cultural heritage tour.
+                                <p>
+                                <p>Dive into traditions, explore historical sites, and meet local artisans.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="pricing-item-4">
+                            <button class="accordion-button collapsed text-success fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#pricing-collapse-4" aria-expanded="false"
+                                aria-controls="pricing-collapse-4">
+                                Culinary Delights Tour - Starting at $65 for adults and $50 for children.
+                            </button>
+                        </h2>
+                        <div id="pricing-collapse-4" class="accordion-collapse collapse"
+                            aria-labelledby="pricing-item-4" data-bs-parent="#price">
+                            <div class="accordion-body">
+                                <p>Satisfy your taste buds on our culinary delights tour.
+                                <p>
+                                <p>Sample local cuisine, visit food markets, and even take part in cooking
+                                    demonstrations. </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="pricing-item-5">
+                            <button class="accordion-button collapsed text-success fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#pricing-collapse-5" aria-expanded="false"
+                                aria-controls="pricing-collapse-5">
+                                Extended Adventure Tour - Prices vary based on the duration and specific inclusions.
+                            </button>
+                        </h2>
+                        <div id="pricing-collapse-5" class="accordion-collapse collapse"
+                            aria-labelledby="pricing-item-5" data-bs-parent="#price">
+                            <div class="accordion-body">
+                                <p>For those seeking a more immersive experience, our extended adventure tours are
+                                    perfect.
+                                <p>
+                                <p>Dive deep into the destination's beauty and charm. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- reviews section -->
+    <section id="reviews" class="bg-dark">
+        <div class="container-lg">
+            <div class="text-center text-light">
+                <h2>Hear What Our Travelers Say - Guided Tour Service Reviews</h2>
+                <p class="lead text-primary">At The Guided Tours, our commitment to delivering exceptional guided tour
+                    experiences is reflected in the stories shared by our valued travelers.</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2 text-warning">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">"An Unforgettable Adventure!"</h5>
+                            <p class="mb-1 text-secondary">I embarked on the city exploration tour with The Guided
+                                Tours, and it was an incredible experience. Our guide was knowledgeable and friendly,
+                                and they took us to hidden gems we would have never discovered on our own.
+                            </p>
+                            <small>- Jane D.</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2 text-warning">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">"Expert Guides and Breathtaking Views!"</h5>
+                            <p class="mb-1 text-secondary">
+
+                                My family and I joined the nature adventure tour, and it exceeded all our expectations.
+                                The views were truly breathtaking, and we felt like we were on an educational journey as
+                                well. Highly recommended!</p>
+                            <small>- Mark T.</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2 text-warning">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">"A Cultural Immersion to Remember!" </h5>
+
+                            <p class="mb-1 text-secondary">
+                                The cultural heritage tour was an eye-opening experience. We got to interact with
+                                locals, learn about their traditions, and witness centuries-old sites.
+                            </p>
+                            <small>- Maria S.</small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-center text-light">
+                <p class="lead text-light">From thrilling outdoor escapades to captivating cultural encounters, our range of tours offers something for everyone.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- contact form -->
+    <!-- form-control, form-label, form-select, input-group, input-group-text -->
+    <section id="contact">
+        <div class="container-lg">
+            <h2>Get in Touch</h2>
+            <p class="lead text-success fw-bold">Comments or Questions? Fill out the form to contact me directly</p>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form>
+                    <label for="name" class="form-label ">Full Name:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-circle text-success"></i>
+                        </span>
+                        <input type="text" class="form-control" id="name" placeholder="e.g. Sidra">
+                        <!-- tooltip -->
+                        <span class="input-group-text">
+                            <span class="tool">
+                                <i class="bi bi-question-circle-fill text-dark" data-bs-placement="bottom"
+                                    title="Enter your name"></i>
+                            </span>
+
+                        </span>
+                    </div>
+
+                    <label for="email" class="form-label">Email id:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-envelope-at-fill text-success"></i>
+                        </span>
+                        <input type="email" class="form-control" id="email" placeholder="e.g. sidra@example.com">
+                        <!-- tooltip -->
+                        <span class="input-group-text">
+                            <span class="tool">
+                                <i class="bi bi-question-circle-fill text-dark" data-bs-placement="bottom"
+                                    title="Enter your email id"></i>
+                            </span>
+                        </span>
+                    </div>
+
+                    <label for="number" class="form-label ">Phone Number:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-telephone-fill text-success"></i>
+                        </span>
+                        <input type="number" class="form-control" id="number">
+                        <span class="input-group-text">
+                            <!-- tooltip -->
+                            <span class="tool">
+                                <i class="bi bi-question-circle-fill text-dark" data-bs-placement="bottom"
+                                    title="Enter your phone number"></i>
+                            </span>
+                        </span>
+                    </div>
+
+                    <label for="size" class="form-label">Group size:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-people-fill text-success"></i>
+                        </span>
+                        <input type="text" class="form-control" id="size" placeholder="e.g. 4">
+                        <!-- tooltip -->
+                        <span class="input-group-text">
+                            <span class="tool">
+                                <i class="bi bi-question-circle-fill text-dark" data-bs-placement="bottom"
+                                    title="Enter the group size"></i>
+                            </span>
+                        </span>
+                    </div>
+
+                    <label for="subject" class="form-label">Preferred Tour:
+                        Select from the dropdown menu the options for different types of tours
+                    </label>
+                    <select class="form-select" id="subject">
+                        <option value="city" selected>City Exploration</option>
+                        <option value="nature">Nature Adventure</option>
+                        <option value="culinary">Culinary Delights</option>
+                        <option value="cultural">Cultural Heritage</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <div class="form-floating mb-4 mt-5">
+                        <textarea id="query" class="form-control" style="height: 140px;"></textarea>
+                        <label for="query">Special Requests or Dietary Restrictions:</label>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- get updates/modal trigger -->
+    <section class="bg-dark">
+        <div class="container">
+            <div class="text-center text-light">
+                <h2>Stay Connected with Us: Explore, Discover, and Wander On.</h2>
+                <p class="lead">Embark on Unforgettable Journeys with Expert Insight</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-light my-4">
+                        Explore the world's wonders with our expertly curated guided tours. Immerse yourself in
+                        captivating destinations, learn from knowledgeable guides, and create lasting memories. Join us
+                        on an adventure that's tailored to your interests and travel dreams. Contact us today to begin
+                        your extraordinary journey.
+                    </p>
+                    <button class="btn btn-primary bg-warning text-dark" data-bs-toggle="modal"
+                        data-bs-target="#reg-modal">
+                        Unlock a world of exploration by registering with us.
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- modal for toggling -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-dark">
+                    <h5 class="modal-title" id="modal-title">Sign up today to receive exclusive updates and personalized
+                        recommendations</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body text-success fw-bold">
+                    <p>Unlock a world of exploration by registering with us. Whether you're an avid traveler or just
+                        beginning your journey, our registration process makes it easy to access a range of
+                        unforgettable adventures. Embark on the guided tours that will create memories to cherish. Join
+                        our community of travelers and start your journey with us.</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. sidra@example.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning">Submit</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Mystery Destinations and Adventure Challenges</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-labelledby="close"></button>
+        </div>
+        <div class="offcanvas-body text-success fw-bold">
+            <p>Travel packages are being offered where the destination is revealed only upon arrival, creating an
+                element of surprise and curiosity.</p>
+            <p>Adventure challenges where participants engage in thrilling activities or solve clues in unique
+                locations, fostering a sense of discovery.</p>
+            <p>Storytelling evenings where seasoned travelers share their experiences of venturing into unknown
+                territories, inspiring others to do the same.</p>
+            <p>Local cuisines and flavors that you have never encountered before, creating a culinary journey into the
+                unknown.</p>
+            <p>Guided tours that uncover the forgotten or overlooked historical aspects of a destination, revealing
+                layers of its past.</p>
+            <p>Showcasing of breathtaking photos of mysterious landscapes that spark curiosity and inspire exploration.
+            </p>
+            <p>Wildlife spotting tours to observe rare or endangered species in their natural habitats, fostering an
+                appreciation for biodiversity.</p>
+            <p>Historical reenactments or theatrical performances that transport participants back in time to experience
+                the unknown past.</p>
+            <p>Travel with mindfulness practices, we encourage participants to explore their inner landscapes as they
+                venture into the outer world.</p>
+            <p>We design retreats in remote locations where participants disconnect from technology and reconnect with
+                nature and themselves.</p>
+            <p>We provide virtual reality experiences that allow users to virtually explore remote or inaccessible
+                locations from the comfort of their homes.</p>
+                <!-- dropdown -->
+                <div class="dropdown mt-3">
+                    <button class="btn btn-warning dropdown-toggle" type="button" id="journey-dropdown" data-bs-toggle="dropdown">
+                        Embrace the Mystery
+                    </button>
+                    <ul class="dropdown-menu text-primary" aria-labelledby="journey-dropdown">
+                       <li><a href="#" class="dropdown-list"></a>A Pathway to the Unknown Awaits</li>
+                       <li><a href="#" class="dropdown-list"></a>Daring to Dream</li>
+                       <li><a href="#" class="dropdown-list"></a>Your Extraordinary Journey</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+    <div class="copyright text-center bg-warning text-dark">
+        <p> &copy; 2023 - www.TheGuidedTours.com</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script>
+        const tooltips = document.querySelectorAll('.tool')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+
+
+</body>
+
+</html>
